@@ -5,13 +5,13 @@ body{
         background: linear-gradient(
         to bottom,
         #83B9D0 70%,
-        #A8C686 30%
+        #97cd5a 25% 30%
     );
     background-attachment: fixed;
 }
 
 h1{
-    font-size:50px;
+    font-size:70px;
     color:rgb(81, 53, 53);
     margin-top:100px
 }
@@ -24,18 +24,18 @@ p{
 
 .wlc{
     width:140px;
-    height:70px;
+    height:60px;
     border-radius:30px;
-    background-color: #dbcaa0;
-    color:rgb(89, 18, 29);
-    border:5px double rgb(81, 53, 53);
+    background-color: #e6dbbe;
+    color:rgb(88, 50, 65);
+    border:4px double rgb(7, 192, 254);
     align-items: center;
     justify-content: center;
     display:flex;
     position: absolute;
     top:50%;
     left:45%;
-    font-size: 20px;
+    font-size: 17px;
 
 }
 
@@ -43,3 +43,52 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+.cloud1 {
+    width: 150px;
+    height: 80px;
+    background-color: rgb(252, 241, 241);
+    position: absolute;
+    left: 10%;
+    top: 17%;
+    transition: 0.2s;
+
+    clip-path: polygon(
+        0 48px, 12px 48px, 12px 32px,
+        27px 32px, 27px 16px, 45px 16px,
+        45px 6px, 78px 6px, 78px 16px,
+        102px 16px, 102px 29px, 126px 29px,
+        126px 45px, 150px 45px, 150px 64px,
+        138px 64px, 138px 74px, 123px 74px,
+        123px 80px, 24px 80px, 24px 74px,
+        12px 74px, 12px 64px, 0 64px
+    );
+}
+
+.cloud2{
+width: 100px;
+height: 50px;
+background-color: rgb(252, 241, 241);
+position: absolute;
+left:75%;
+top:10%;
+transition:0.2s;
+
+clip-path: polygon(
+    0 30px,8px 30px,8px 20px,18px 20px,18px 10px,30px 10px,30px 4px,
+    52px 4px,52px 10px,68px 10px,68px 18px,84px 18px,
+    84px 28px,100px 28px,100px 40px,
+    92px 40px, 92px 46px,82px 46px,82px 50px,16px 50px,16px 46px,8px 46px,8px 40px,
+    0 40px
+);
+
+}
+
+.cloud1:hover{
+    left:14%;
+}
+
+.cloud2:hover{
+    left:78%
+}
+

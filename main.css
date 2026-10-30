@@ -1,0 +1,113 @@
+body{
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif;   
+        background: linear-gradient(
+        to bottom,
+        #83B9D0 75%,
+        #97cd5a 25%
+    );
+    background-attachment: fixed;
+}
+
+h1{
+    font-size:50px;
+    color:rgb(81, 53, 53);
+    margin-top:30px
+}
+
+.home {
+    width: 220px;
+    height: 180px;
+    background-color: #f4ede9;
+    border: 4px solid #7a5246;
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    border-radius: 0;
+
+    clip-path: polygon(
+        0 50px,
+        12px 50px,
+        12px 40px,
+        25px 40px,
+        25px 28px,
+        43px 28px,
+        43px 17px,
+        61px 17px,
+        61px 6px,
+        86px 6px,
+        86px 0,
+        110px 0,
+        110px 6px,
+        135px 6px,
+        135px 17px,
+        153px 17px,
+        153px 28px,
+        171px 28px,
+        171px 40px,
+        184px 40px,
+        184px 50px,
+        196px 50px,
+        196px 169px,
+        184px 169px,
+        184px 180px,
+        12px 180px,
+        12px 169px,
+        0 169px
+    );
+}
+
+
+.roof {
+    height: 60px;
+    width: 220px;
+    background-color: rgb(220, 110, 110);
+    position: absolute;
+    top: -6%;
+    left: -10%;
+
+    clip-path: polygon(
+        0 55px,
+        12px 55px,
+        12px 45px,
+        30px 45px,
+        30px 35px,
+        50px 35px,
+        50px 25px,
+        75px 25px,
+        75px 15px,
+        100px 15px,
+        100px 5px,
+        110px 5px,
+        110px 0,
+        120px 0,
+        120px 5px,
+        130px 5px,
+        130px 15px,
+        155px 15px,
+        155px 25px,
+        175px 25px,
+        175px 35px,
+        195px 35px,
+        195px 45px,
+        208px 45px,
+        208px 55px,
+        220px 55px,
+        220px 80px,
+        0 80px
+    );
+}
+
+.door{
+    width:43px;
+    height:53px;
+    background-color: rgb(107, 70, 70);
+    position: absolute;
+    top:66%;
+    left:30%;
+    border:2px solid rgb(64, 43, 43)
+}
+
+.door:hover{
+    background-color: rgb(231, 199, 157);
+}
