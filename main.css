@@ -3,8 +3,8 @@ body{
     font-family: 'Silkscreen', sans-serif;   
         background: linear-gradient(
         to bottom,
-        #83B9D0 75%,
-        #97cd5a 25%
+        #7bbedb 80%,
+        #97cd5a 20%
     );
     background-attachment: fixed;
 }
@@ -22,7 +22,7 @@ h1{
     border: 4px solid #7a5246;
     position: absolute;
     left: 3%;
-    top: 50%;
+    top: 55%;
     border-radius: 0;
 
     clip-path: polygon(
@@ -144,7 +144,7 @@ h1{
     width:130px;
     height:40px;
     position: absolute;
-    top:44%;
+    top:48%;
     left:5%;
     background-color: rgb(237, 215, 215);
     font-size: 20px;
@@ -162,13 +162,13 @@ h1{
     height:280px;
     background: linear-gradient(
         to bottom,
-        #b5c6dc 50%,
-        #cfdbeb 50% 30%
+        #B8C7E8 50%,
+        #d9e3eb 50% 30%
     );
     position: absolute;
-    top:36%;
+    top:42%;
     left:30%;
-    border:3px solid rgb(99, 99, 160);
+    border:3px solid rgb(178, 189, 83);
    clip-path: polygon(
      0 20px,
      12px 20px,
@@ -191,15 +191,15 @@ h1{
 
 
 .door2{
-    width:50px;
-    height:80px;
+    width:48px;
+    height:75px;
     background-color: rgb(126, 192, 240);
-    border:2px solid rgb(59, 39, 48);
+    border:2px solid #131b39;
     position:absolute;
     top:74%;
-    left:55%;
+    left:59%;
     border-radius: 10px;
-    background-color:rgb(87, 60, 60);
+    background-color:#263860;
     cursor: pointer;
 }
 
@@ -209,3 +209,251 @@ h1{
     #5387e0 6px 12px);
 }
 
+.window3{
+    width:48px;
+    height:40px;
+    background-color: #4a57e2;
+    position:absolute;
+    top:60%;
+    left:12%;
+    border:2px solid rgb(27, 27, 78)
+}
+
+.window4{
+    width:52px;
+    height:40px;
+    background-color: #4a57e2;
+    position:absolute;
+    top:20%;
+    left:12%;
+    border:2px solid rgb(27, 27, 78)
+}
+
+.roof2 {
+    height: 60px;
+    width: 220px;
+    background: repeating-linear-gradient(90deg,
+    #869aee 0 6px,
+    #426ba2 6px 12px);  
+    position: absolute;
+    top: 36%;
+    left: 29%;
+
+    clip-path: polygon(
+        0 55px,
+        12px 55px,
+        12px 45px,
+        30px 45px,
+        30px 35px,
+        50px 35px,
+        50px 25px,
+        75px 25px,
+        75px 15px,
+        100px 15px,
+        100px 5px,
+        110px 5px,
+        110px 0,
+        120px 0,
+        120px 5px,
+        130px 5px,
+        130px 15px,
+        155px 15px,
+        155px 25px,
+        175px 25px,
+        175px 35px,
+        195px 35px,
+        195px 45px,
+        208px 45px,
+        208px 55px,
+        220px 55px,
+        220px 80px,
+        0 80px
+    );
+}
+
+.baner2{
+    width:130px;
+    height:40px;
+    position: absolute;
+    top:30%;
+    left:32%;
+    background-color: rgb(253, 252, 235);
+    font-size: 20px;
+    border-radius: 20px;
+    border:4px double rgb(120, 144, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(129, 137, 9);
+    
+}
+
+
+.school{
+    width:300px;
+    height:225px;
+    background: linear-gradient(
+        to bottom,
+        #f4e384 50%,
+        #fbf6a5 50% 30%
+    );
+    position: absolute;
+    top:49%;
+    left:60%;
+    border:3px solid rgb(178, 189, 83);
+    clip-path: polygon(
+     0 20px,
+     12px 20px,
+     12px 10px,
+     25px 10px,
+     25px 0,
+     275px 0,
+     275px 10px,
+     288px 10px,
+     288px 20px,
+     300px 20px,
+     300px 213px,
+     288px 213px,
+     288px 225px,
+     12px 225px,
+     12px 213px,
+     0 213px
+  );
+
+}
+
+.roof3 {
+    height: 100px;
+    width: 300px;
+    background-color:#bd8917;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+
+clip-path: polygon(
+    0 55px,
+    15px 55px,
+    15px 45px,
+    40px 45px,
+    40px 35px,
+    65px 35px,
+    65px 25px,
+    100px 25px,
+    100px 15px,
+    135px 15px,
+    135px 5px,
+    145px 5px,
+    145px 0,
+    155px 0,
+    155px 5px,
+    165px 5px,
+    165px 15px,
+    200px 15px,
+    200px 25px,
+    235px 25px,
+    235px 35px,
+    260px 35px,
+    260px 45px,
+    285px 45px,
+    285px 55px,
+    300px 55px,
+    300px 80px,
+    0 80px
+);
+     
+}
+
+
+.baner3{
+    width:90px;
+    height:30px;
+    position: absolute;
+    top:46%;
+    left:67%;
+    background-color: rgb(253, 252, 235);
+    font-size: 17px;
+    border-radius: 20px;
+    border:4px double rgb(205, 87, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(8, 84, 20);
+    
+}
+
+
+
+.door3{
+    width:55px;
+    height:79px;
+    border:2px solid #28161a;
+    position:absolute;
+    top:68%;
+    left:41%;
+    background-color:#4b373b;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.door3:hover{
+    background-color: rgb(74, 137, 196);
+}
+.window5{
+    width:50px;
+    height:38px;
+    background-color: #7b9fde;
+    position:absolute;
+    top:18%;
+    left:12%;
+    border:3px solid rgb(74, 40, 46);
+}
+
+
+.window6{
+    width:50px;
+    height:38px;
+    background-color: #7b9fde;
+    position:absolute;
+    top:18%;
+    left:68%;
+    border:3px solid rgb(74, 40, 46);
+}
+
+.window7{
+    width:40px;
+    height:34px;
+    background-color: #7b9fde;
+    position:absolute;
+    top:52%;
+    left:13%;
+    border:3px solid rgb(74, 40, 46);
+
+}
+
+
+.window8{
+    width:40px;
+    height:34px;
+    background-color: #7b9fde;
+    position:absolute;
+    top:52%;
+    left:72%;
+    border:3px solid rgb(74, 40, 46);
+
+}
+
+
+.red{
+    position: absolute;
+    top:28%;
+    left:70%;
+    font-size: 70px;
+}
+
+.ad{
+    position: absolute;
+    top:40%;
+    left:37%;
+    font-size: 30px;
+    color:red
+}
