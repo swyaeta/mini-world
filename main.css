@@ -101,13 +101,111 @@ h1{
 .door{
     width:43px;
     height:53px;
-    background-color: rgb(107, 70, 70);
     position: absolute;
-    top:66%;
+    top:70%;
     left:30%;
-    border:2px solid rgb(64, 43, 43)
+    border:2px solid rgb(64, 43, 43);
+    background: repeating-linear-gradient(90deg,
+    #715148 0 6px,
+    #5a3a30 6px 12px);  
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .door:hover{
-    background-color: rgb(231, 199, 157);
+    background: repeating-linear-gradient(90deg,
+    #5387e0 0 6px,
+    #5387e0 6px 12px);
 }
+
+
+.window1{
+    background-color: #976b5d; 
+    width:30px;
+    height:30px;
+    position: absolute;
+    top:40%;
+    left:10%;
+    border: 2px solid rgb(64, 43, 43) 
+}
+
+
+.window2{
+    background-color: #976b5d; 
+    width:30px;
+    height:30px;
+    position: absolute;
+    top:40%;
+    left:56%;
+    border: 2px solid rgb(64, 43, 43)
+}
+
+.baner1{
+    width:130px;
+    height:40px;
+    position: absolute;
+    top:44%;
+    left:5%;
+    background-color: rgb(237, 215, 215);
+    font-size: 20px;
+    border-radius: 20px;
+    border:4px double rgb(92, 72, 72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(220, 110, 110);
+    
+}
+
+.hos{
+    width:200px;
+    height:280px;
+    background: linear-gradient(
+        to bottom,
+        #b5c6dc 50%,
+        #cfdbeb 50% 30%
+    );
+    position: absolute;
+    top:36%;
+    left:30%;
+    border:3px solid rgb(99, 99, 160);
+   clip-path: polygon(
+     0 20px,
+     12px 20px,
+     12px 10px,
+     25px 10px,
+     25px 0,
+     175px 0,
+     175px 10px,
+     188px 10px,
+     188px 20px,
+     200px 20px,
+     200px 268px,
+     188px 268px,
+     188px 280px,
+     12px 280px,
+     12px 268px,
+     0 268px
+);
+}
+
+
+.door2{
+    width:50px;
+    height:80px;
+    background-color: rgb(126, 192, 240);
+    border:2px solid rgb(59, 39, 48);
+    position:absolute;
+    top:74%;
+    left:55%;
+    border-radius: 10px;
+    background-color:rgb(87, 60, 60);
+    cursor: pointer;
+}
+
+.door2:hover{
+    background: repeating-linear-gradient(90deg,
+    #5387e0 0 6px,
+    #5387e0 6px 12px);
+}
+
