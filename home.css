@@ -1,0 +1,256 @@
+img {
+    image-rendering: pixelated;
+}
+
+body{
+    text-align:center;
+    background-color: #6cb9d3;
+    font-family: 'Silkscreen', sans-serif;    
+}
+
+h1{
+   margin-top:50px;
+   color: #633C2B;
+   font-size:60px
+
+}
+
+p{
+   color: #fb9494;
+   font-size: 20px;
+    margin-top:-20px;
+
+}
+
+
+.room {
+    width: 1000px;
+    height: 900px;
+    background: linear-gradient(
+        to bottom,
+        #e2c9ce 50%,
+        #FFF1D6 50% 30%
+    );
+    border: 6px double #55382F;
+    margin: 100px auto
+}
+
+.room {
+    position: relative;
+    overflow: hidden;
+}
+
+.sofa1 {
+    width: 170px;
+    height: 80px;
+    background: linear-gradient(
+        to top,
+        #e84556 20%,
+        #C97883  80%
+    );     
+    position: absolute;
+    top: 790px;
+    left: 90px;
+    border: 3px solid #7A414B;
+    clip-path: polygon(
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    );
+
+}
+
+
+
+.pillow1{
+    width: 60px;
+    height: 30px;
+    background-color:  #FFF1D6;
+    border: 3px solid  #7A414B;
+    position: absolute;
+    top: 45px;
+    left: 60px;
+    border-radius: 10px;
+
+}
+
+.pillow1:hover{
+    left:55px
+
+}
+
+.sofa2{
+    width: 90px;
+    height: 280px;
+    background: linear-gradient(
+        to right,
+        #e84556 20%,
+        #C97883  80%
+    );    
+
+    position: absolute;
+    top: 590px;
+    left: 20px;
+    border: 3px solid #7A414B;
+    clip-path: polygon(
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    );
+}
+
+
+.pillow2{
+    width: 35px;
+    height: 50px;
+    background-color:  #FFF1D6;
+    border: 3px solid  #7A414B;
+    position: absolute;
+    top: 45px;
+    left: -2px;
+    border-radius: 10px;
+    transition: 0.2s;
+
+}
+
+.pillow2:hover{
+    left:2px
+
+}
+
+.pillow3{
+    width: 35px;
+    height: 50px;
+    background-color:  #FFF1D6;
+    border: 3px solid  #7A414B;
+    position: absolute;
+    top: 150px;
+    left: -2px;
+    border-radius: 10px;
+    transition: 0.2s;
+
+}
+
+.pillow3:hover{
+    left:2px
+
+}
+
+
+.table1 {
+    width: 60px;
+    height: 115px;
+    background-color: #D59B7A;
+    border: 4px solid #7a5246;
+    position: absolute;
+    left: 170px;
+    top: 620px;
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+.table2 {
+    width: 130px;
+    height: 50px;
+    background-color: #D59B7A;
+    border: 4px solid #7a5246;
+    position: absolute;
+    left: 130px;
+    top: 480px;
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+.table3 {
+    width: 130px;
+    height: 30px;
+    background-color: #b17755;
+    border: 3px solid #7a5246;
+    position: absolute;
+    left: 130px;
+    top: 490px;
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+.tv{
+    font-size:65px;
+    position: absolute;
+    top:440px;
+    left:154px;
+    transition: 0.3s;
+}
+
+.tele{
+    font-size:30px;
+    position: absolute;
+    top:620px;
+    left:175px;   
+    transition: 0.2s
+}
+
+.tele:hover{
+    top:630px
+}
+
+.tv:hover{
+    left:150px
+}
+
+.plant{
+    font-size:30px;
+    position: absolute;
+    top:690px;
+    left:175px;   
+    transition: 0.2s;  
+}
