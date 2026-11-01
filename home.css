@@ -28,7 +28,7 @@ p{
     height: 900px;
     background: linear-gradient(
         to bottom,
-        #e2c9ce 50%,
+        #cfb6bb 50%,
         #FFF1D6 50% 30%
     );
     border: 6px double #55382F;
@@ -203,8 +203,6 @@ p{
     position: absolute;
     left: 130px;
     top: 490px;
-
-
     clip-path: polygon(
         0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
         calc(100% - 8px) 0,
@@ -254,3 +252,309 @@ p{
     left:175px;   
     transition: 0.2s;  
 }
+
+
+.kitchen1 {
+    width: 220px;
+    height: 65px;
+    background: linear-gradient(
+        to bottom,
+        #E8D5C0 25%,
+        #B98D72 25%
+    );
+    border: 3px solid #765344;
+    position: absolute;
+    top: 800px;
+    left: 747px;
+}
+
+.c1{
+    width:40px;
+    height:40px;
+    background-color: rgb(206, 62, 62);
+    position: absolute;
+    top:18px;
+    left:30px;
+    border-radius:20px
+}
+
+.c2{
+    width:40px;
+    height:40px;
+    background-color: rgb(207, 45, 45);
+    position: absolute;
+    top:18px;
+    left:120px;
+    border-radius:20px
+}
+
+.kitchen2 {
+    width: 65px;
+    height: 180px;
+    background: linear-gradient(
+        to right,
+        #E8D5C0 25%,
+        #B98D72 25%
+    );
+    border: 3px solid #765344;
+    position: absolute;
+    top: 620px;
+    left: 900px;
+}
+
+.egg{
+    font-size:40px;
+    position: absolute;
+    top:11px;
+    left:23px;   
+    transition: 0.2s; 
+    transform:rotate(-130deg)   
+}
+
+.pot{
+    font-size:40px;
+    position: absolute;
+    top:11px;
+    left:110px;   
+    transition: 0.2s; 
+    transform:rotate(-130deg)      
+}
+
+.d1{
+    width:10px;
+    height:10px;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    left:45px
+}
+
+.d1:hover{
+    background-color: red;
+}
+
+.d2{
+    width:10px;
+    height:10px;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    left:130px
+}
+
+.d2:hover{
+    background-color:red;
+}
+
+.ket{
+    font-size:40px;
+    position: absolute;
+    top:11px;
+    left:10px;   
+    transition: 0.2s; 
+    transform:rotate(-280deg)      
+}
+
+.table4 {
+    width: 110px;
+    height: 190px;
+    background-color: #b17755;
+    border: 3px solid #7a5246;
+    position: absolute;
+    left: 630px;
+    top: 520px;
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+.chair1 {
+    width: 40px;
+    height: 40px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 665px;
+    top: 730px;
+    transition:0.2s;
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chair1:hover {
+    top:740px
+}
+
+
+.chair2 {
+    width: 40px;
+    height: 40px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 560px;
+    top: 630px;
+    transition: 0.2s;
+    transform: rotate(93deg);
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chair2:hover{
+    left:550px
+
+}
+
+
+.chair3 {
+    width: 40px;
+    height: 40px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 560px;
+    top: 530px;
+    transform: rotate(93deg);
+    transition: 0.2s;
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chair3:hover{
+    left:545px
+
+}
+
+.chair4 {
+    width: 40px;
+    height: 40px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 760px;
+    top: 530px;
+    transition: 0.2s;
+    transform: rotate(-93deg);
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chair4:hover{
+    left:770px
+}
+
+.chair5 {
+    width: 40px;
+    height: 40px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 760px;
+    top: 630px;
+    transform: rotate(-93deg);
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chair5:hover{
+    left:770px
+}
+
+.plate{
+    position:absolute;
+    position: absolute;
+    top:660px;
+    left:660px;
+    font-size: 35px;
+}
+
+    
