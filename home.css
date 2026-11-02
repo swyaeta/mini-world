@@ -305,17 +305,30 @@ p{
     position: absolute;
     top:11px;
     left:23px;   
-    transition: 0.2s; 
     transform:rotate(-130deg)   
 }
 
-.pot{
-    font-size:40px;
+.person {
+    width: 60px;
+    height: 90px;
     position: absolute;
-    top:11px;
-    left:110px;   
-    transition: 0.2s; 
-    transform:rotate(-130deg)      
+    background-size: 240px 360px;
+    background-position: 0 0;
+    image-rendering: pixelated;
+    cursor: grab;
+    touch-action: none;
+    z-index: 20;
+}
+
+.pot {
+    font-size: 40px;
+    position: absolute;
+    top: 23%;
+    left: 53%;
+    cursor: grab;
+    touch-action: none;
+    z-index: 20;
+    transform:rotate(-130deg)   
 }
 
 .d1{
@@ -1068,4 +1081,38 @@ p{
         4px calc(100% - 4px), 4px calc(100% - 8px),
         0 calc(100% - 8px)
     );
+}
+
+
+
+.room {
+    position: relative;
+}
+
+
+.girl {
+    background-image: url("images/girl.png");
+    top: 10%;
+    left: 20%;
+}
+
+.boy {
+    background-image: url("images/boy.png");
+    top: 77%;
+    left: 80%;
+}
+
+
+.baby {
+    width: 40px;
+    height: 60px;
+    background-image: url("images/baby.png");
+    background-size: 160px 240px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    position: absolute;
+    top: 77%;
+    left: 30%;
+    cursor: grab;
 }

@@ -1,0 +1,1237 @@
+body{
+    text-align:center;
+    background-color: #d6ecf4;
+    font-family: 'Silkscreen', sans-serif;    
+}
+
+
+h1{
+   margin-top:50px;
+   color: #633C2B;
+   font-size:60px
+
+}
+
+
+p{
+   color: #fb9494;
+   font-size: 20px;
+    margin-top:-20px;
+
+}
+
+
+.room {
+    width: 1200px;
+    height: 1200px;
+    background: linear-gradient(
+        to bottom,
+        #ebf0a5 60%,
+        #f7fccb 40% 30%
+    );
+    border: 6px double #55382F;
+    margin: 100px auto
+}
+
+
+.room {
+    position: relative;
+    overflow: hidden;
+}
+
+.sofai {
+    width: 200px;
+    height: 80px;
+    background: linear-gradient(
+        to top,
+        #0e6f3d 20%,
+        #78c9a4  70%
+    );     
+    position: absolute;
+    top: 1340px;
+    left: 100px;
+    border: 3px solid #7a7841;
+    clip-path: polygon(
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    );
+
+}
+
+.pillowi{
+    width: 60px;
+    height: 30px;
+    background-color:  #FFF1D6;
+    border: 3px solid #7a7841;
+    position: absolute;
+    top: 45px;
+    left: 60px;
+    border-radius: 10px;
+
+}
+
+.pillowi:hover{
+    left:55px
+
+}
+
+.sofaii{
+    width: 90px;
+    height: 280px;
+    background: linear-gradient(
+        to right,
+        #0e6f3d 20%,
+        #78c9a4  70%
+    );    
+
+    position: absolute;
+    top: 1140px;
+    left: 60px;
+    border: 3px solid #7a7841;
+    clip-path: polygon(
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    );
+}
+
+
+.pillowii{
+    width: 35px;
+    height: 50px;
+    background-color:  #FFF1D6;
+    border: 3px solid #7a7841;
+    position: absolute;
+    top: 45px;
+    left: -2px;
+    border-radius: 10px;
+    transition: 0.2s;
+
+}
+
+.pillowii:hover{
+    left:2px
+
+}
+
+.pillowiii{
+    width: 35px;
+    height: 50px;
+    background-color:  #FFF1D6;
+    border: 3px solid #7a7841;
+    position: absolute;
+    top: 150px;
+    left: -2px;
+    border-radius: 10px;
+    transition: 0.2s;
+
+}
+
+.pillowiii:hover{
+    left:2px
+
+}
+   
+
+.counter1{
+    width:15px;
+    height:250px;
+    background-color: rgb(87, 65, 65);
+    position: absolute;
+    top:1150px;
+    left:1000px;
+    border-radius: 10px;
+}
+
+.counter2{
+    width:250px;
+    height:10px;
+    background-color: rgb(87, 65, 65);
+    position: absolute;
+    top:1150px;
+    left:1000px;
+    border-radius: 10px;
+}
+
+.l2{
+    width:90px;
+    height:10px;
+    background-color: #502e1e;
+    margin-left:90px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.l2:hover{
+    background-color:#cbfcec;
+}
+
+.counter3{
+    width:250px;
+    height:10px;
+    background-color: rgb(87, 65, 65);
+    position: absolute;
+    top:1387px;
+    left:1000px;
+    border-radius: 10px;
+}
+
+.table1{
+    width:60px;
+    height:226px;
+    background-color: rgb(118, 91, 91);
+    position: absolute;
+    top:1161px;
+    left:1014px;
+
+}
+
+.tabley1{
+    width: 65px;
+    height: 105px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 240px;
+    top: 1080px;
+    transform:rotate(-90deg);
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+.chairy1 {
+    width: 45px;
+    height: 45px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 248px;
+    top: 1020px;
+    transform:rotate(-180deg);
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chairy1:hover {
+    top:1015px
+}
+
+.book {
+    width: 60px;
+    height: 30px;
+    background-color: #c6c4f4;
+    border: 3px solid #a39bfa;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    transform: rotate(-270deg);
+
+    clip-path: polygon(
+        0 4px, 4px 4px, 4px 0,
+        calc(100% - 4px) 0,
+        calc(100% - 4px) 4px, 100% 4px,
+        100% calc(100% - 4px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 4px) 100%,
+        4px 100%, 4px calc(100% - 4px),
+        0 calc(100% - 4px)
+    );
+    font-size:9px
+}
+
+.book:hover{
+    background-color: white;
+    font-size:5px;
+    top:8px
+}
+
+.tele1{
+    font-size:35px;
+    position: absolute;
+    top:72%;
+    left:12%
+}
+
+.tele1:hover{
+    left:15%
+}
+
+.board2{
+    width:90px;
+    height:40px;
+    background-color: white;
+    position: absolute;
+    top:80px;
+    left:-20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:rotate(-90deg);
+    font-size: 14px;
+}
+
+
+.tabley2{
+    width: 65px;
+    height: 105px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 140px;
+    top: 680px;
+    transform:rotate(-90deg);
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+.chairy2 {
+    width: 45px;
+    height: 45px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 148px;
+    top: 800px;
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chairy2:hover {
+    top:805px
+}
+
+.book2 {
+    width: 60px;
+    height: 30px;
+    background-color: #c6c4f4;
+    border: 3px solid #a39bfa;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    transform: rotate(-270deg);
+
+    clip-path: polygon(
+        0 4px, 4px 4px, 4px 0,
+        calc(100% - 4px) 0,
+        calc(100% - 4px) 4px, 100% 4px,
+        100% calc(100% - 4px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 4px) 100%,
+        4px 100%, 4px calc(100% - 4px),
+        0 calc(100% - 4px)
+    );
+    font-size:9px
+}
+
+.book2:hover{
+    background-color: white;
+    font-size:5px;
+    top:8px
+}
+
+.tabley3{
+    width: 65px;
+    height: 105px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 340px;
+    top: 680px;
+    transform:rotate(-90deg);
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+.chairy3 {
+    width: 45px;
+    height: 45px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 348px;
+    top: 800px;
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chairy3:hover {
+    top:905px
+}
+
+.book3 {
+    width: 60px;
+    height: 30px;
+    background-color: #c6c4f4;
+    border: 3px solid #a39bfa;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    transform: rotate(-270deg);
+
+    clip-path: polygon(
+        0 4px, 4px 4px, 4px 0,
+        calc(100% - 4px) 0,
+        calc(100% - 4px) 4px, 100% 4px,
+        100% calc(100% - 4px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 4px) 100%,
+        4px 100%, 4px calc(100% - 4px),
+        0 calc(100% - 4px)
+    );
+    font-size:9px
+}
+
+.book3:hover{
+    background-color: white;
+    font-size:5px;
+    top:8px
+}
+
+
+.tabley4{
+    width: 65px;
+    height: 105px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 340px;
+    top: 480px;
+    transform:rotate(-90deg);
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+.chairy4 {
+    width: 45px;
+    height: 45px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 348px;
+    top: 600px;
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chairy4:hover {
+    top:605px
+}
+
+.book4 {
+    width: 60px;
+    height: 30px;
+    background-color: #c6c4f4;
+    border: 3px solid #a39bfa;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    transform: rotate(-270deg);
+
+    clip-path: polygon(
+        0 4px, 4px 4px, 4px 0,
+        calc(100% - 4px) 0,
+        calc(100% - 4px) 4px, 100% 4px,
+        100% calc(100% - 4px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 4px) 100%,
+        4px 100%, 4px calc(100% - 4px),
+        0 calc(100% - 4px)
+    );
+    font-size:9px
+}
+
+.book4:hover{
+    background-color: white;
+    font-size:5px;
+    top:8px
+}
+
+
+.tabley5{
+    width: 65px;
+    height: 105px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 140px;
+    top: 480px;
+    transform:rotate(-90deg);
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+.chairy5 {
+    width: 45px;
+    height: 45px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 148px;
+    top: 600px;
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chairy5:hover {
+    top:605px
+}
+
+.book5 {
+    width: 60px;
+    height: 30px;
+    background-color: #c6c4f4;
+    border: 3px solid #a39bfa;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    transform: rotate(-270deg);
+
+    clip-path: polygon(
+        0 4px, 4px 4px, 4px 0,
+        calc(100% - 4px) 0,
+        calc(100% - 4px) 4px, 100% 4px,
+        100% calc(100% - 4px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 4px) 100%,
+        4px 100%, 4px calc(100% - 4px),
+        0 calc(100% - 4px)
+    );
+    font-size:9px
+}
+
+.book5:hover{
+    background-color: white;
+    font-size:5px;
+    top:8px
+}
+
+.tabley6{
+    width: 65px;
+    height: 105px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 740px;
+    top: 680px;
+    transform:rotate(-90deg);
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+.chairy6 {
+    width: 45px;
+    height: 45px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 748px;
+    top: 800px;
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chairy6:hover {
+    top:805px
+}
+
+.book6 {
+    width: 60px;
+    height: 30px;
+    background-color: #c6c4f4;
+    border: 3px solid #a39bfa;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    transform: rotate(-270deg);
+
+    clip-path: polygon(
+        0 4px, 4px 4px, 4px 0,
+        calc(100% - 4px) 0,
+        calc(100% - 4px) 4px, 100% 4px,
+        100% calc(100% - 4px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 4px) 100%,
+        4px 100%, 4px calc(100% - 4px),
+        0 calc(100% - 4px)
+    );
+    font-size:9px
+}
+
+.book6:hover{
+    background-color: white;
+    font-size:5px;
+    top:8px
+}
+
+
+.tabley7{
+    width: 65px;
+    height: 105px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 940px;
+    top: 680px;
+    transform:rotate(-90deg);
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+.chairy7 {
+    width: 45px;
+    height: 45px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 948px;
+    top: 800px;
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chairy7:hover {
+    top:805px
+}
+
+.book7 {
+    width: 60px;
+    height: 30px;
+    background-color: #c6c4f4;
+    border: 3px solid #a39bfa;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transform: rotate(-270deg);
+
+    clip-path: polygon(
+        0 4px, 4px 4px, 4px 0,
+        calc(100% - 4px) 0,
+        calc(100% - 4px) 4px, 100% 4px,
+        100% calc(100% - 4px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 4px) 100%,
+        4px 100%, 4px calc(100% - 4px),
+        0 calc(100% - 4px)
+    );
+    font-size:9px
+}
+
+.book7:hover{
+    background-color: white;
+    font-size:5px;
+    top:8px
+}
+
+.tabley8{
+    width: 65px;
+    height: 105px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 1140px;
+    top: 680px;
+    transform:rotate(-90deg);
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+.chairy8 {
+    width: 45px;
+    height: 45px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 1148px;
+    top: 800px;
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chairy8:hover {
+    top:805px
+}
+
+.book8 {
+    width: 60px;
+    height: 30px;
+    background-color: #c6c4f4;
+    border: 3px solid #a39bfa;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transform: rotate(-270deg);
+
+    clip-path: polygon(
+        0 4px, 4px 4px, 4px 0,
+        calc(100% - 4px) 0,
+        calc(100% - 4px) 4px, 100% 4px,
+        100% calc(100% - 4px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 4px) 100%,
+        4px 100%, 4px calc(100% - 4px),
+        0 calc(100% - 4px)
+    );
+    font-size:9px
+}
+
+.book8:hover{
+    background-color: white;
+    font-size:5px;
+    top:8px
+}
+
+.tabley9{
+    width: 65px;
+    height: 105px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 740px;
+    top: 480px;
+    transform:rotate(-90deg);
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+.chairy9 {
+    width: 45px;
+    height: 45px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 748px;
+    top: 600px;
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chairy9:hover {
+    top:605px
+}
+
+.book9 {
+    width: 60px;
+    height: 30px;
+    background-color: #c6c4f4;
+    border: 3px solid #a39bfa;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    transform: rotate(-270deg);
+
+    clip-path: polygon(
+        0 4px, 4px 4px, 4px 0,
+        calc(100% - 4px) 0,
+        calc(100% - 4px) 4px, 100% 4px,
+        100% calc(100% - 4px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 4px) 100%,
+        4px 100%, 4px calc(100% - 4px),
+        0 calc(100% - 4px)
+    );
+    font-size:9px
+}
+
+.book9:hover{
+    background-color: white;
+    font-size:5px;
+    top:8px
+}
+
+
+.tabley10{
+    width: 65px;
+    height: 105px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 940px;
+    top: 480px;
+    transform:rotate(-90deg);
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+.chairy10 {
+    width: 45px;
+    height: 45px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 948px;
+    top: 600px;
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chairy10:hover {
+    top:605px
+}
+
+.book10 {
+    width: 60px;
+    height: 30px;
+    background-color: #c6c4f4;
+    border: 3px solid #a39bfa;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transform: rotate(-270deg);
+
+    clip-path: polygon(
+        0 4px, 4px 4px, 4px 0,
+        calc(100% - 4px) 0,
+        calc(100% - 4px) 4px, 100% 4px,
+        100% calc(100% - 4px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 4px) 100%,
+        4px 100%, 4px calc(100% - 4px),
+        0 calc(100% - 4px)
+    );
+    font-size:9px
+}
+
+.book10:hover{
+    background-color: white;
+    font-size:5px;
+    top:8px
+}
+
+.tabley11{
+    width: 65px;
+    height: 105px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 1140px;
+    top: 480px;
+    transform:rotate(-90deg);
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+.chairy11 {
+    width: 45px;
+    height: 45px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 1148px;
+    top: 600px;
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chairy11:hover {
+    top:605px
+}
+
+.book11 {
+    width: 60px;
+    height: 30px;
+    background-color: #c6c4f4;
+    border: 3px solid #a39bfa;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    transform: rotate(-270deg);
+
+    clip-path: polygon(
+        0 4px, 4px 4px, 4px 0,
+        calc(100% - 4px) 0,
+        calc(100% - 4px) 4px, 100% 4px,
+        100% calc(100% - 4px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 4px) 100%,
+        4px 100%, 4px calc(100% - 4px),
+        0 calc(100% - 4px)
+    );
+    font-size:9px
+}
+
+.book11:hover{
+    background-color: white;
+    font-size:5px;
+    top:8px
+}
+
+
+.boards1{
+    width:130px;
+    height:90px;
+    background-color: white;
+    border: 4px solid rgb(74, 56, 56);
+    position: absolute;
+    top:50%;
+    left:17%
+}
+
+
+
+
+.boards2{
+    width:130px;
+    height:90px;
+    background-color: white;
+    border: 4px solid rgb(74, 56, 56);
+    position: absolute;
+    top:50%;
+    left:72%
+}

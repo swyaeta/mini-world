@@ -678,7 +678,7 @@ p{
 
 .coun2{
     width:350px;
-    height:10px;
+    height:12px;
     background-color: rgb(101, 70, 70);
     position: absolute;
     top:13%;
@@ -692,4 +692,54 @@ p{
     position: absolute;
     top:0%;
     left:20%    
+}
+
+.table2{
+    width:340px;
+    height:48px;
+    background-color: #683a25;
+    position: absolute;
+    top:9%;
+    left:21%
+}
+
+.mg{
+    font-size: 20px;
+    background-color: white;
+    width:62px;
+    height:32px;
+    border-radius: 13px;
+    position: absolute;
+    top:10px;
+    left:10px;
+    border:2px solid rgb(40, 39, 39);
+    cursor: pointer;
+}
+
+.mg:hover{
+    background-color: #dbe1fb;
+}
+
+.med{
+    font-size: 20px;
+    background-color: white;
+    width:92px;
+    height:32px;
+    border-radius: 13px;
+    position: absolute;
+    top:10px;
+    left:210px;
+    border:2px solid rgb(40, 39, 39);
+    cursor: pointer;
+}
+
+.med:hover{
+    background-color: rgb(240, 230, 230);
+}
+
+.nurse{
+    width:120px;
+    position: absolute;
+    top:-1%;
+    left:20%
 }
