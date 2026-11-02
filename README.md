@@ -12,12 +12,9 @@
 
 #### How to Run Locally
 
-##### Download or clone this repository.
-
-#### Open the project folder.
-
+ Download or clone this repository.
+ Open the project folder.
 Open index.html in your browser.
-
 Start exploring!
 
 Thanks for visiting Mini World! Have fun exploring and creating your own little scenes. 💗
