@@ -737,9 +737,80 @@ p{
     background-color: rgb(240, 230, 230);
 }
 
-.nurse{
-    width:120px;
+.person {
+    width: 60px;
+    height: 91px;
     position: absolute;
-    top:-1%;
-    left:20%
+    background-size: 240px 360px;
+    background-position: 0 0;
+    image-rendering: pixelated;
+    cursor: grab;
+    touch-action: none;
+    z-index: 20;
+}
+
+.nurse {
+    width: 100px;
+    height: 150px;
+    background-image: url("images/nurse.png");
+    background-size: 100px 150px;
+    background-repeat: no-repeat;
+    position: absolute;
+    cursor: grab;
+    touch-action: none;
+    top:50%;
+    left:29%
+}
+
+.baby2 {
+    width: 40px;
+    height: 60px;
+    background-image: url("images/baby2.png");
+    background-size: 160px 240px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    position: absolute;
+    top: 47%;
+    left: 80%;
+    cursor: grab;
+}
+
+
+.baby3 {
+    width: 40px;
+    height: 60px;
+    background-image: url("images/baby3.png");
+    background-size: 160px 240px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    position: absolute;
+    top: 47%;
+    left: 8%;
+    cursor: grab;
+}
+
+.teach2{
+    background-image: url("images/teach2.png");
+    top: 87%;
+    left: 17%;    
+}
+
+.teach3{
+    background-image: url("images/teach3.png");
+    top: 20%;
+    left: 12%;    
+}
+
+.girl {
+    background-image: url("images/girl.png");
+    top: 50%;
+    left:15%;
+}
+
+.boy {
+    background-image: url("images/boy.png");
+    top: 77%;
+    left: 89%;
 }
