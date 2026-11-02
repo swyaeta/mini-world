@@ -4,7 +4,7 @@
 
 #### Mini World is a mini world website/pretend-game made with HTML, CSS, and JavaScript. Explore different buildings, enter rooms, discover furniture, and move characters around to create your own little scenes and memories
 
-## Demo-Link: [https://swyaeta.github.io/mini-world/]
+### Demo-Link: [https://swyaeta.github.io/mini-world/]
 
 ### Explore the Mini World!
 
@@ -15,6 +15,12 @@
 ### 3:<img width="1460" height="763" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/a499163b-45d8-4fcc-a9bc-45883b011e06" />
 
 #### Walk around the little town and explore its different buildings.
+
+### Built With
+- HTML
+- CSS
+- JavaScript
+
 
 ### How to Run Locally:
 
