@@ -1,6 +1,4 @@
-img {
-    image-rendering: pixelated;
-}
+
 
 body{
     text-align:center;
@@ -782,7 +780,6 @@ p{
 }
 
 
-
 .chair7 {
     width: 45px;
     height: 45px;
@@ -987,3 +984,88 @@ p{
     left:36%
 }
 
+.was {
+    width: 80px;
+    position: absolute;
+    top: 350px;
+    left: 890px;
+}
+
+.was img {
+    width: 80%;
+    image-rendering: pixelated;
+}
+
+.was:hover{
+    width:84px
+}
+
+.bas{
+    font-size: 50px;
+    position: absolute;
+    top: 320px;
+    left: 750px; 
+    z-index: 2;   
+}
+
+.bas:hover{
+    top:323px
+}
+
+.shirt1{
+    font-size: 30px;
+    position: absolute;
+    top: 340px;
+    left: 720px; 
+    z-index: 2;   
+}
+
+.shirt1:hover{
+    top:338px
+}
+
+.shirt2{
+    font-size: 33px;
+    position: absolute;
+    top: 370px;
+    left: 720px; 
+    z-index: 2;   
+}
+
+.shirt2:hover{
+    top:367px
+}
+
+.table6{
+    width: 65px;
+    height: 105px;
+    background: linear-gradient(
+        to bottom,
+        #E8D5C0 45%,
+        #B98D72 25%
+    );      
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 730px;
+    top: 330px;
+    transform:rotate(-90deg);
+    z-index: 1;
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
