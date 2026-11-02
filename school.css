@@ -1250,7 +1250,7 @@ p{
 .baby {
     width: 40px;
     height: 60px;
-    background-image: url("images/baby.png");
+    background-image: url("baby.png");
     background-size: 160px 240px;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -1264,7 +1264,7 @@ p{
 .baby2 {
     width: 40px;
     height: 60px;
-    background-image: url("images/baby2.png");
+    background-image: url("baby2.png");
     background-size: 160px 240px;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -1279,7 +1279,7 @@ p{
 .baby3 {
     width: 40px;
     height: 60px;
-    background-image: url("images/baby3.png");
+    background-image: url("baby3.png");
     background-size: 160px 240px;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -1293,7 +1293,7 @@ p{
 .baby4 {
     width: 40px;
     height: 60px;
-    background-image: url("images/baby4.png");
+    background-image: url("baby4.png");
     background-size: 160px 240px;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -1307,7 +1307,7 @@ p{
 .baby5 {
     width: 40px;
     height: 60px;
-    background-image: url("images/baby5.png");
+    background-image: url("baby5.png");
     background-size: 160px 240px;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -1321,7 +1321,7 @@ p{
 .baby6 {
     width: 40px;
     height: 60px;
-    background-image: url("images/baby6.png");
+    background-image: url("baby6.png");
     background-size: 160px 240px;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -1334,20 +1334,20 @@ p{
 
 
 .teach1{
-    background-image: url("images/teach1.png");
+    background-image: url("teach1.png");
     top: 77%;
     left: 87%;    
 }
 
 
 .teach2{
-    background-image: url("images/teach2.png");
+    background-image: url("teach2.png");
     top: 58%;
     left: 17%;    
 }
 
 .teach3{
-    background-image: url("images/teach3.png");
+    background-image: url("teach3.png");
     top: 10%;
     left: 22%;    
 }
