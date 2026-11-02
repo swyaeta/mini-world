@@ -4,7 +4,7 @@
 
 #### Mini World is a top-down pixel-art exploration website made with HTML, CSS, and JavaScript. Explore different buildings, enter rooms, discover furniture, and move characters around to create your own little scenes!
 
-## Demo-Link: [Add your GitHub Pages link here]
+## Demo-Link: [https://swyaeta.github.io/mini-world/]
 
 ### Explore the Mini World!
 
