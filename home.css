@@ -557,4 +557,433 @@ p{
     font-size: 35px;
 }
 
-    
+
+.bed1 {
+    width: 160px;
+    height: 110px;
+    background-color: #d59b7a;
+    border: 6px solid #7a5246;
+    position: absolute;
+    left: 70px;
+    top: 270px;
+    border-radius: 0;
+    clip-path: polygon(
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    );
+
+}
+
+.pillow4{
+    width: 30px;
+    height: 60px;
+    background-color: #fff8ef;
+    border: 4px solid  #7a5246;
+    position: absolute;
+    top: 22px;
+    left: 7px;
+    clip-path: polygon(
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    );
+}
+
+.pillow4:hover{
+    left:4px
+
+}
+
+.blanket1 {
+    width: 110px;
+    height: 109px;
+    background-color: #e17c99;
+    border-top: 3px solid #7a4663;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    transition: 0.2s;
+    /* this make everything look piixalted*/
+    clip-path: polygon(
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    );  
+}
+
+
+.blanket1:hover{
+    left:80px
+}
+
+
+.win{
+    width:120px;
+    height:90px;
+    background-color: rgb(137, 191, 214);
+    position: absolute;
+    top:20px;
+    left:250px;
+    clip-path: polygon(
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    ); 
+    border: 5px solid #7a5246; 
+}
+
+.parda1 {
+    width: 48px;
+    height: 102px;
+    position: relative;
+    top: 20px;
+    left: 250px;
+    border: 4px solid #b56e6f;
+    background: repeating-linear-gradient(90deg,
+         #b98b9b 0 6px,
+         #b56e81 6px 12px);  
+   clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+     
+}
+
+.parda1:hover{
+    width:28px
+}
+
+.parda2 {
+    width: 48px;
+    height: 102px;
+    position: relative;
+    top:-90px;
+    left: 327px;
+    border: 4px solid #b56e6f;
+    background: repeating-linear-gradient(90deg,
+        #b98b9b 0 6px,
+        #b56e81 6px 12px);  
+   clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+     
+}
+
+.parda2:hover {
+    width: 28px;
+    left: 347px;
+}
+
+.cloud1{
+    width:30px;
+    height:15px;
+    border-radius:10px ;
+    background-color: rgb(252, 241, 241);
+    margin-left:19px;
+    margin-top:6px;
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
+        100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
+    );
+
+}
+
+.cloud2{
+    width:30px;
+    height:15px;
+    border-radius:10px ;
+    background-color: rgb(252, 241, 241);
+    margin-left:40px;
+    margin-top:6px;
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
+        100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
+    );
+
+}
+
+.cloud3{
+    width:30px;
+    height:15px;
+    border-radius:10px ;
+    background-color: rgb(252, 241, 241);
+    margin-left:75px;
+    margin-top:6px;
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0, calc(100% - 8px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 8px, 100% 8px,
+        100% calc(100% - 8px), calc(100% - 4px) calc(100% - 8px), calc(100% - 4px) calc(100% - 4px), calc(100% - 8px) calc(100% - 4px), calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 8px), 0 calc(100% - 8px)
+    );
+
+}
+
+.table5{
+    width: 105px;
+    height: 65px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: -10px;
+    top: 100px;
+    transform:rotate(-90deg);
+
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 8px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 8px) calc(100% - 4px),
+        calc(100% - 8px) 100%,
+        8px 100%, 8px calc(100% - 4px),
+        4px calc(100% - 4px), 4px calc(100% - 8px),
+        0 calc(100% - 8px)
+    );
+}
+
+
+
+.chair7 {
+    width: 45px;
+    height: 45px;
+    background-color: #D59B7A;
+    border: 5px solid #7a5246;
+    position: absolute;
+    left: 105px;
+    top: 115px;
+    transform:rotate(-90deg);
+
+    clip-path: polygon(
+        0 8px, 4px 8px, 4px 4px, 8px 4px, 8px 0,
+        calc(100% - 8px) 0,
+        calc(100% - 8px) 4px,
+        calc(100% - 4px) 4px,
+        calc(100% - 4px) 8px,
+        100% 8px,
+        100% 35px,
+        calc(100% - 4px) 35px,
+        calc(100% - 4px) 100%,
+        calc(100% - 12px) 100%,
+        calc(100% - 12px) 40px,
+        12px 40px,
+        12px 100%,
+        4px 100%, 4px 35px,
+        0 35px
+    );
+}
+
+.chair7:hover {
+    left:113px
+}
+
+.book {
+    width: 30px;
+    height: 30px;
+    background-color: #f4c4d3;
+    border: 3px solid #fa9bc7;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+
+    clip-path: polygon(
+        0 4px, 4px 4px, 4px 0,
+        calc(100% - 4px) 0,
+        calc(100% - 4px) 4px, 100% 4px,
+        100% calc(100% - 4px),
+        calc(100% - 4px) calc(100% - 4px),
+        calc(100% - 4px) 100%,
+        4px 100%, 4px calc(100% - 4px),
+        0 calc(100% - 4px)
+    );
+    font-size:10px
+}
+
+.book:hover{
+    background-color: white;
+    font-size:5px;
+    top:8px
+}
+
+.bed2 {
+    width: 160px;
+    height: 160px;
+    background-color: #d59b7a;
+    border: 6px solid #7a5246;
+    position: absolute;
+    left: 820px;
+    top: 5px;
+    border-radius: 0;
+    clip-path: polygon(
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    );
+
+}
+
+.pillow5{
+    width: 60px;
+    height: 30px;
+    background-color: #fff8ef;
+    border: 4px solid  #7a5246;
+    position: absolute;
+    top: 10px;
+    left: 7px;
+    clip-path: polygon(
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    );
+}
+
+.pillow5:hover{
+    top:7px
+}
+
+.pillow6{
+    width: 60px;
+    height: 30px;
+    background-color: #fff8ef;
+    border: 4px solid  #7a5246;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    clip-path: polygon(
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    );
+}
+
+
+.pillow6:hover{
+    top:7px
+}
+
+.blanket2 {
+    width: 160px;
+    height: 105px;
+    background-color: #fefb71;
+    border-top: 3px solid #f6ef19;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.2s;
+    /* this make everything look piixalted*/
+    clip-path: polygon(
+      0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
+      calc(100% - 12px) 0, calc(100% - 12px) 4px, calc(100% - 8px) 4px, calc(100% - 8px) 8px, calc(100% - 4px) 8px, calc(100% - 4px) 12px, 100% 12px,
+      100% calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) 100%,
+      12px 100%, 12px calc(100% - 4px), 8px calc(100% - 4px), 8px calc(100% - 8px), 4px calc(100% - 8px), 4px calc(100% - 12px), 0 calc(100% - 12px)
+    );  
+}
+
+.blanket2:hover{
+    height:85px
+}
+
+.line{
+    width:6px;
+    height:450px;
+    background-color: rgb(221, 119, 136);
+    position: absolute;
+    top:0%;
+    left:45%
+}
+
+.l2{
+    width:8px;
+    height:110px;
+    background-color: #71402a;
+    margin-top:230px
+}
+
+.l2:hover{
+    background-color:#cfb6bb ;
+}
+
+.closet {
+    width: 100px;
+    height: 130px;
+    background-color: #C99B78;
+    border: 4px solid #765344;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    display: flex;
+    cursor: pointer;
+}
+
+.do1{
+    width: 50%;
+    height: 100%;
+    background-color: #E2B995;
+    border: 2px solid #765344;
+    transition: 0.2s;
+}
+
+.do1:hover{
+    background-color: #7a4663;
+    width:20%
+}
+.do2{
+    width: 50%;
+    height: 100%;
+    background-color: #E2B995;
+    border: 2px solid #765344;    
+}
+
+.shoer{
+    font-size:60px;
+    position: absolute;
+    top:39%;
+    left:37%
+}
+
+.shoer:hover{
+    left:36%
+}
+
