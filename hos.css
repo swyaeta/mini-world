@@ -752,7 +752,7 @@ p{
 .nurse {
     width: 100px;
     height: 150px;
-    background-image: url("images/nurse.png");
+    background-image: url("nurse.png");
     background-size: 100px 150px;
     background-repeat: no-repeat;
     position: absolute;
@@ -765,7 +765,7 @@ p{
 .baby2 {
     width: 40px;
     height: 60px;
-    background-image: url("images/baby2.png");
+    background-image: url("baby2.png");
     background-size: 160px 240px;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -780,7 +780,7 @@ p{
 .baby3 {
     width: 40px;
     height: 60px;
-    background-image: url("images/baby3.png");
+    background-image: url("baby3.png");
     background-size: 160px 240px;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -792,25 +792,25 @@ p{
 }
 
 .teach2{
-    background-image: url("images/teach2.png");
+    background-image: url("teach2.png");
     top: 87%;
     left: 17%;    
 }
 
 .teach3{
-    background-image: url("images/teach3.png");
+    background-image: url("teach3.png");
     top: 20%;
     left: 12%;    
 }
 
 .girl {
-    background-image: url("images/girl.png");
+    background-image: url("girl.png");
     top: 50%;
     left:15%;
 }
 
 .boy {
-    background-image: url("images/boy.png");
+    background-image: url("boy.png");
     top: 77%;
     left: 89%;
 }
