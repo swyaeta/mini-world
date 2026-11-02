@@ -1091,13 +1091,13 @@ p{
 
 
 .girl {
-    background-image: url("images/girl.png");
+    background-image: url("girl.png");
     top: 10%;
     left: 20%;
 }
 
 .boy {
-    background-image: url("images/boy.png");
+    background-image: url("boy.png");
     top: 77%;
     left: 20%;
 }
@@ -1106,7 +1106,7 @@ p{
 .baby {
     width: 40px;
     height: 60px;
-    background-image: url("images/baby.png");
+    background-image: url("baby.png");
     background-size: 160px 240px;
     background-position: 0 0;
     background-repeat: no-repeat;
