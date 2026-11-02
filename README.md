@@ -10,7 +10,7 @@
 
 #### Walk around the little town and explore its different buildings.
 
-####How to Run Locally
+#### How to Run Locally
 
 ##### Download or clone this repository.
 
