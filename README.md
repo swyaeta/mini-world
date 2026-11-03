@@ -29,4 +29,7 @@
 #### Open index.html in your browser.
 #### Start exploring!
 
+#### The character sprites used there are not mine, these are from the internet
+
+#### The remaining every furniture and all is made by css by me
 Thanks for visiting Mini World! Have fun exploring and creating your own little scenes. 💗
