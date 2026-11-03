@@ -49,7 +49,7 @@ p{
     );     
     position: absolute;
     top: 1340px;
-    left: 170px;
+    left: 250px;
     border: 3px solid #7a7841;
     clip-path: polygon(
       0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
@@ -88,7 +88,7 @@ p{
 
     position: absolute;
     top: 1140px;
-    left: 130px;
+    left: 200px;
     border: 3px solid #7a7841;
     clip-path: polygon(
       0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
