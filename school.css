@@ -49,7 +49,7 @@ p{
     );     
     position: absolute;
     top: 1340px;
-    left: 250px;
+    left: 210px;
     border: 3px solid #7a7841;
     clip-path: polygon(
       0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
@@ -88,7 +88,7 @@ p{
 
     position: absolute;
     top: 1140px;
-    left: 200px;
+    left: 160px;
     border: 3px solid #7a7841;
     clip-path: polygon(
       0 12px, 4px 12px, 4px 8px, 8px 8px, 8px 4px, 12px 4px, 12px 0,
@@ -1219,7 +1219,7 @@ p{
     background-color: white;
     border: 4px solid rgb(74, 56, 56);
     position: absolute;
-    top:35%;
+    top:40%;
     left:17%
 }
 
@@ -1229,7 +1229,7 @@ p{
     background-color: white;
     border: 4px solid rgb(74, 56, 56);
     position: absolute;
-    top:35%;
+    top:40%;
     left:72%
 }
 
